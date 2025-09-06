@@ -91,7 +91,7 @@ client.on('messageCreate', async (message) => {
 
     // أمر إرسال التذكرة
     if (message.content === '-send-ticket') {
-        const targetChannel = client.channels.cache.get('1413910806990553242');
+        const targetChannel = client.channels.cache.get('1397586203859095713');
         if (!targetChannel) {
             return message.reply('❌ لم يتم العثور على الروم المحدد');
         }
@@ -295,3 +295,4 @@ function selectPrize(prizes) {
 
 // تسجيل الدخول للبوت
 client.login(process.env.token);
+
