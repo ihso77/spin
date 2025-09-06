@@ -294,4 +294,4 @@ function selectPrize(prizes) {
 }
 
 // تسجيل الدخول للبوت
-client.login('MTQxMzkwNTU4OTg2NzY0NzA1Ng.GMjiTh.cKHRVSIbtbfqyy_qltzebqRDSywcjo8GchwK5M');
+client.login(process.env.token);
